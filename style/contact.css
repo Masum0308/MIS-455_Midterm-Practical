@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
   }
   nav {
     background-color: rgb(129, 128, 137);
@@ -20,4 +23,11 @@ body {
   }
   nav a {
     text-decoration: none;
+  }
+  
+  header, footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
   }
