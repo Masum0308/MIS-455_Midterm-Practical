@@ -1,9 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-image:url(/image/background.jpg);
   }
   nav {
-    background-color: rgb(189, 188, 201);
+    background-color:transparent;
     display: flex;
   }
   .nav-items {
@@ -11,11 +12,14 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-    color: black;
+    color: white;
     transition: background-color 400ms ease-in-out, color 400ms ease-in-out;
+    font-weight: 600;
+    font-size:24;
   }
+  
   .nav-items:hover {
-    background-color: grey;
+    background-color: #4B70F5;
     color: white;
   }
   nav a {
@@ -62,9 +66,17 @@ body {
 .bike-item p {
     margin-top: 10px;
 }
-header, footer {
+header {
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+}
+
+footer{
+  background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+
 }

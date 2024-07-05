@@ -16,6 +16,9 @@ body {
     cursor: pointer;
     color: black;
     transition: background-color 400ms ease-in-out, color 400ms ease-in-out;
+    font-weight: 600;
+    font-size:24;
+  
   }
   .nav-items:hover {
     background-color: grey;

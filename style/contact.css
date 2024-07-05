@@ -4,9 +4,10 @@ body {
     box-sizing: border-box;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+
   }
   nav {
-    background-color: rgb(129, 128, 137);
+    background-color: transparent;
     display: flex;
   }
   .nav-items {
@@ -14,11 +15,13 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-    color: black;
+    color: rgb(255, 0, 0);
     transition: background-color 400ms ease-in-out, color 400ms ease-in-out;
+    font-weight: 600;
+    font-size:24;
   }
   .nav-items:hover {
-    background-color: grey;
+    background-color: rgb(196, 12, 12);
     color: white;
   }
   nav a {
