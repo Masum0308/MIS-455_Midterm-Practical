@@ -55,3 +55,31 @@ body {
 .product-item h2 {
     margin-top: 10px;
 }
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.about-section{
+    flex: 1;
+    margin: 0 20px;
+}
+
+.about-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.about-section p  {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+
+
+.footer-container i {
+    margin-right: 8px;
+}
