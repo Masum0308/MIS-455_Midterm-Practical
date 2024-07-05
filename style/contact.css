@@ -61,3 +61,43 @@ body {
 .contact-item p {
     margin-top: 10px;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.about-section, .contact-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.about-section h2, .contact-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.about-section p, .contact-section address {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.contact-section address p {
+  margin: 10px 0;
+}
+
+.contact-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+.footer-container i {
+  margin-right: 8px;
+}
