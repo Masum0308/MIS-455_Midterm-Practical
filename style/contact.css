@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    background-color: rgb(129, 128, 137);
+    display: flex;
+  }
+  .nav-items {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 400ms ease-in-out, color 400ms ease-in-out;
+  }
+  .nav-items:hover {
+    background-color: grey;
+    color: white;
+  }
+  nav a {
+    text-decoration: none;
+  }

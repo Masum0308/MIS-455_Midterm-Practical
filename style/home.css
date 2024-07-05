@@ -3,7 +3,7 @@ body {
     padding: 0;
   }
   nav {
-    background-color: rgb(19, 8, 215);
+    background-color: rgb(189, 188, 201);
     display: flex;
   }
   .nav-items {
@@ -21,3 +21,50 @@ body {
   nav a {
     text-decoration: none;
   }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.home-main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.bike-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.bike-item {
+    max-width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.bike-gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bike-item p {
+    margin-top: 10px;
+}
+header, footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
