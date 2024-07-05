@@ -4,24 +4,28 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-size: cover;
+    background-image:url(/image/background.jpg);
+
   }
   nav {
-    background-color: rgb(158, 158, 174);
+    background-color:transparent;
     display: flex;
+
+    
   }
   .nav-items {
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-    color: black;
+    color: white;
     transition: background-color 400ms ease-in-out, color 400ms ease-in-out;
     font-weight: 600;
     font-size:24;
   
   }
   .nav-items:hover {
-    background-color: grey;
+    background-color:#3DC2EC;
     color: white;
   }
   nav a {
@@ -81,8 +85,9 @@ body {
     line-height: 1.6;
 }
 
+.products-main{
+  color:whitesmoke;
+  align-items: center;
 
-
-.footer-container i {
-    margin-right: 8px;
 }
+
